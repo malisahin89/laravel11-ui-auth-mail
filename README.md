@@ -55,7 +55,9 @@ cd laravel11-ui-auth-mail
 composer install
 ```
 
-4. DB Migrate:
+4. Create a new .env file
+
+5. DB Migrate:
 
 ```sh
 php artisan migrate
@@ -77,6 +79,8 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS="test@mail.com"
 MAIL_FROM_NAME="${APP_NAME}"
 ```
+
+- Add panels without mailtrap or merge a user and fill in the 'email_verified_at' section in the User table and then set 'is_admin' as 1 to send emails through the provided email link and the system.
 
 
 ---
