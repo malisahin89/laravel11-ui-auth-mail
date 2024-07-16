@@ -55,7 +55,9 @@ cd laravel11-ui-auth-mail
 composer install
 ```
 
-4. Create a new .env file
+<b>
+4. Create a new .env file and fill in the required fields for database connection
+</b>
 
 5. DB Migrate:
 
